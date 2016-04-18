@@ -1,6 +1,11 @@
 # fake-clickbus-api
 A mock to test api requests and responses in the format described at http://docs.clickbus.com.br/
 
+## Install
+```shell
+npm i -D fake-clickbus-api
+```
+
 ## Usage
 
 ```javascript
@@ -46,5 +51,12 @@ npm run data:places
 ```
 npm run data:trips
 ```
+
+### Todo
+
+- Currently the scripts to populate fixtures with real outputs are not available
+to the package distributed on npm. Maybe I'll include those shell scripts with
+the distribution later.
+- Currently only some endpoints are mocked: ```places``` and ```trips```.
 
 [jq]: https://stedolan.github.io/jq/
