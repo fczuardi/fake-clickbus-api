@@ -1,0 +1,33 @@
+{
+  "name": "fake-clickbus-api",
+  "version": "0.1.0",
+  "description": "A nock for the clickbus api",
+  "main": "lib/index.js",
+  "scripts": {
+    "data:places": "./tasks/update-fixtures-place.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fczuardi/fake-clickbus-api.git"
+  },
+  "keywords": [
+    "clickbus",
+    "test",
+    "api",
+    "nock",
+    "mock"
+  ],
+  "author": "Fabricio C Zuardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fczuardi/fake-clickbus-api/issues"
+  },
+  "homepage": "https://github.com/fczuardi/fake-clickbus-api#readme",
+  "devDependencies": {
+    "request": "^2.71.0"
+  },
+  "dependencies": {
+    "nock": "^8.0.0"
+  }
+}
