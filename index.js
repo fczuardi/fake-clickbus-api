@@ -15,7 +15,14 @@ const scope = fakeClickBus(CLICKBUS_URL);
 //     console.log(response.body)
 // });
 
-request(CLICKBUS_URL + '/trips?from=sao-paulo-tiete-sp&departure=2015-01-01',
+// request(CLICKBUS_URL + '/trips?from=sao-paulo-tiete-sp&departure=2015-01-01',
+//     function (error, response, body) {
+//         console.log(response.body)
+//     }
+// );
+
+const today = new Date().toISOString().slice(0,10);
+request(`${CLICKBUS_URL}/trips?from=sao-paulo-tiete-sp&departure=${today}`,
     function (error, response, body) {
         console.log(response.body)
     }
