@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "data:places": "./tasks/update-fixtures-place.sh",
+    "data:trips": "./tasks/update-fixtures-trips.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
