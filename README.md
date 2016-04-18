@@ -1,6 +1,22 @@
 # fake-clickbus-api
 A mock to test api requests and responses in the format described at http://docs.clickbus.com.br/
 
+## Usage
+
+```javascript
+const request = require('request');
+const fakeClickBus = require('fake-clickbus-api');
+
+const CLICKBUS_URL = process.env.CLICKBUS_URL ||
+        'https://api-evaluation.clickbus.com.br/api/v1';
+const scope = fakeClickBus(CLICKBUS_URL);
+
+request(CLICKBUS_URL + '/places', function (error, response, body) {
+    console.log(response.body)
+});
+
+```
+
 ## Contributing
 
 ### non-npm requirements
@@ -23,6 +39,12 @@ cached output of your fake mocked API. To do that use the tasks below:
 
 ```
 npm run data:places
+```
+
+#### trips
+
+```
+npm run data:trips
 ```
 
 [jq]: https://stedolan.github.io/jq/
