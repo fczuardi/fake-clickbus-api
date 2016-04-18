@@ -7,6 +7,16 @@ const fakeClickBus = require('./lib');
 const CLICKBUS_URL = process.env.CLICKBUS_URL || 'https://api-evaluation.clickbus.com.br/api/v1';
 const scope = fakeClickBus(CLICKBUS_URL);
 
-request(CLICKBUS_URL + '/places', function (error, response, body) {
-    console.log(response.body)
-});
+// request(CLICKBUS_URL + '/places', function (error, response, body) {
+//     console.log(response.body)
+// });
+
+// request(CLICKBUS_URL + '/trips', function (error, response, body) {
+//     console.log(response.body)
+// });
+
+request(CLICKBUS_URL + '/trips?from=sao-paulo-tiete-sp&departure=2015-01-01',
+    function (error, response, body) {
+        console.log(response.body)
+    }
+);
