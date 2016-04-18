@@ -1,12 +1,22 @@
 {
   "name": "fake-clickbus-api",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "A nock for the clickbus api",
   "main": "lib/index.js",
   "scripts": {
     "data:places": "./tasks/update-fixtures-place.sh",
     "data:trips": "./tasks/update-fixtures-trips.sh",
+    "prebuild:npm": "mkdir -p dir/npm && cp package.json dist/npm/.",
+    "build:npm": "babel lib/*.js --out-dir dist/npm",
+    "publish:npm": "npm publish dist/npm",
+    "ppp": "npm version patch && git push && npm run build:npm && npm run publish:npm",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "plugins": [
+      "transform-strict-mode",
+      "transform-es2015-destructuring"
+    ]
   },
   "repository": {
     "type": "git",
@@ -26,6 +36,9 @@
   },
   "homepage": "https://github.com/fczuardi/fake-clickbus-api#readme",
   "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-plugin-transform-es2015-destructuring": "^6.6.5",
+    "babel-plugin-transform-strict-mode": "^6.6.5",
     "request": "^2.71.0"
   },
   "dependencies": {
