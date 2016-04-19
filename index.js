@@ -5,7 +5,7 @@ const request = require('request');
 const fakeClickBus = require('./lib');
 
 const CLICKBUS_URL = process.env.CLICKBUS_URL || 'https://api-evaluation.clickbus.com.br/api/v1';
-const scope = fakeClickBus(CLICKBUS_URL);
+fakeClickBus(CLICKBUS_URL);
 
 // request(CLICKBUS_URL + '/places', function (error, response, body) {
 //     console.log(response.body)
@@ -21,9 +21,9 @@ const scope = fakeClickBus(CLICKBUS_URL);
 //     }
 // );
 
-const today = new Date().toISOString().slice(0,10);
+const today = new Date().toISOString().slice(0, 10);
 request(`${CLICKBUS_URL}/trips?from=sao-paulo-tiete-sp&departure=${today}`,
-    function (error, response, body) {
-        console.log(response.body)
+    (error, response, body) => {
+        console.log(body);
     }
 );
