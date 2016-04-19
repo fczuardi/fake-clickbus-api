@@ -4,6 +4,7 @@
   "description": "A nock for the clickbus api",
   "main": "lib/index.js",
   "scripts": {
+    "mkdir:data": "mkdir -p ./fixtures",
     "data:places": "./tasks/update-fixtures-place.sh",
     "data:trips": "./tasks/update-fixtures-trips.sh",
     "prebuild:npm": "mkdir -p dir/npm && cp package.json dist/npm/.",
