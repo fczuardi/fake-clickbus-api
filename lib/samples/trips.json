@@ -1,0 +1,169 @@
+{
+    "meta": "",
+    "items": [{
+        "from": "Sao Paulo, SP - Tiete",
+        "to": "Santos, SP",
+        "parts": [{
+            "trip_id": "2949",
+            "departure": {
+                "price": "2191",
+                "waypoint": {
+                    "id": "4016",
+                    "prices": [{
+                        "waypoint": "3935",
+                        "price": "2191"
+                    }],
+                    "schedule": {
+                        "id": "NDAxNi0tMzkzNS0tMjAxNS0wMi0xMSAwMTowMC0tNy0tMjk0OS0tMS0tMS0tMS0tQ09OVg==",
+                        "date": "2015-02-11",
+                        "time": "01:00",
+                        "timezone": "America/Sao_Paulo"
+                    },
+                    "context": "departure",
+                    "place": {
+                        "country": "BRA",
+                        "state": "",
+                        "city": "Sao Paulo, SP - Tiete",
+                        "station": {
+                            "current": {
+                                "id": "4016",
+                                "name": "Sao Paulo, SP - Tiete",
+                                "locale": "en_US"
+                            },
+                            "default": {
+                                "id": "",
+                                "name": "",
+                                "locale": ""
+                            }
+                        },
+                        "locale": "pt_BR",
+                        "id": "4016"
+                    },
+                    "isDeparture": "true",
+                    "position": "0"
+                }
+            },
+            "arrival": {
+                "price": "2191",
+                "waypoint": {
+                    "id": "3935",
+                    "prices": [{
+                        "waypoint": "",
+                        "price": ""
+                    }],
+                    "schedule": {
+                        "id": "NDAxNi0tMzkzNS0tMjAxNS0wMi0xMSAwMTowMC0tNy0tMjk0OS0tMS0tMS0tMS0tQ09OVg==",
+                        "date": "2015-02-11",
+                        "time": "02:10",
+                        "timezone": "America/Sao_Paulo"
+                    },
+                    "context": "arrival",
+                    "place": {
+                        "country": "BRA",
+                        "state": "",
+                        "city": "Santos, SP",
+                        "station": {
+                            "current": {
+                                "id": "111",
+                                "name": "Santos, SP",
+                                "locale": "pt_BR"
+                            },
+                            "default": {
+                                "id": "",
+                                "name": "",
+                                "locale": ""
+                            }
+                        },
+                        "locale": "pt_BR",
+                        "id": "3935"
+                    },
+                    "isDeparture": "false",
+                    "position": "0"
+                }
+            },
+            "busCompany": {
+                "name": "Cometa",
+                "id": "7",
+                "logo": "https://api-evaluation.clickbus.com.br/bundles/frontend/img/logos/buslines/small/bl-demon-s.png"
+            },
+            "bus": {
+                "serviceClass": "Convencional",
+                "name": "Convencional",
+                "id": "1"
+            },
+            "waypoints": [{
+                "id": "4016",
+                "prices": [{
+                    "waypoint": "3935",
+                    "price": "2191"
+                }],
+                "schedule": {
+                    "id": "NDAxNi0tMzkzNS0tMjAxNS0wMi0xMSAwMTowMC0tNy0tMjk0OS0tMS0tMS0tMS0tQ09OVg==",
+                    "date": "2015-02-11",
+                    "time": "01:00",
+                    "timezone": "America/Sao_Paulo"
+                },
+                "context": "departure",
+                "place": {
+                    "country": "BRA",
+                    "state": "SÃ£o Paulo",
+                    "city": "SÃ£o Paulo",
+                    "station": {
+                        "current": {
+                            "id": "4016",
+                            "name": "Sao Paulo, SP - Tiete",
+                            "locale": "pt_BR"
+                        },
+                        "default": {
+                            "id": "",
+                            "name": "",
+                            "locale": ""
+                        }
+                    },
+                    "locale": "pt_BR",
+                    "id": "123"
+                },
+                "isDeparture": "true",
+                "position": "0"
+            },
+            {
+                "id": "3935",
+                "prices": [{
+                    "waypoint": "",
+                    "price": "2191"
+                }],
+                "schedule": {
+                    "id": "NDAxNi0tMzkzNS0tMjAxNS0wMi0xMSAwMTowMC0tNy0tMjk0OS0tMS0tMS0tMS0tQ09OVg==",
+                    "date": "2015-02-11",
+                    "time": "01:00",
+                    "timezone": "America/Sao_Paulo"
+                },
+                "context": "arrival",
+                "place": {
+                    "country": "BRA",
+                    "state": "",
+                    "city": "Santos, SP",
+                    "station": {
+                        "current": {
+                            "id": "3935",
+                            "name": "Santos, SP",
+                            "locale": "pt_BR"
+                        },
+                        "default": {
+                            "id": "",
+                            "name": "",
+                            "locale": ""
+                        }
+                    },
+                    "locale": "pt_BR",
+                    "id": ""
+                },
+                "isDeparture": false,
+                "position": 0
+            }],
+            "seatTypes": [],
+            "products": [],
+            "availableSeats": "44"
+        }]
+    }]
+}
