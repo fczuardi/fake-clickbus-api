@@ -1,13 +1,13 @@
 #!/bin/sh
-set -euv -o pipefail
+set -euv
 
 TODAY=$(date +"%Y-%m-%d")
 
-curl "$CLICKBUS_API_URL/trips" \
+curl -s -N "$CLICKBUS_API_URL/trips" \
 | jq . \
 > ./fixtures/trips-error-j1.json
 
-curl "$CLICKBUS_API_URL/trips" \
+curl -s -N "$CLICKBUS_API_URL/trips" \
 --get \
 -d "from=sao-paulo-tiete-sp" \
 -d "to=santos-sp" \
@@ -15,7 +15,7 @@ curl "$CLICKBUS_API_URL/trips" \
 | jq . \
 > ./fixtures/trips-error-j9.json
 
-curl "$CLICKBUS_API_URL/trips" \
+curl -s -N "$CLICKBUS_API_URL/trips" \
 --get \
 -d "from=sao-paulo-tiete-sp" \
 -d "to=santos-sp" \
