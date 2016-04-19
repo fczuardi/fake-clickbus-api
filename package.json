@@ -3,6 +3,9 @@
   "version": "0.1.19",
   "description": "A nock for the clickbus api",
   "main": "lib/index.js",
+  "engines": {
+    "node": ">5"
+  },
   "scripts": {
     "mkdir:data": "mkdir -p ./fixtures",
     "data:places": "./tasks/update-fixtures-place.sh",
