@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/fczuardi/fake-clickbus-api.svg?branch=master)](https://travis-ci.org/fczuardi/fake-clickbus-api)
 [![Build Status](https://semaphoreci.com/api/v1/fczuardi/fake-clickbus-api/branches/master/badge.svg)](https://semaphoreci.com/fczuardi/fake-clickbus-api)
 [![Code Climate](https://codeclimate.com/github/fczuardi/fake-clickbus-api/badges/gpa.svg)](https://codeclimate.com/github/fczuardi/fake-clickbus-api)
+[![bitHound Overall Score](https://www.bithound.io/github/fczuardi/fake-clickbus-api/badges/score.svg)](https://www.bithound.io/github/fczuardi/fake-clickbus-api)
 
 # fake-clickbus-api
 A mock to test api requests and responses in the format described at http://docs.clickbus.com.br/
