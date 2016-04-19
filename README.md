@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/fczuardi/fake-clickbus-api.svg?branch=master)](https://travis-ci.org/fczuardi/fake-clickbus-api)
 [![Build Status](https://semaphoreci.com/api/v1/fczuardi/fake-clickbus-api/branches/master/badge.svg)](https://semaphoreci.com/fczuardi/fake-clickbus-api)
 
 # fake-clickbus-api
