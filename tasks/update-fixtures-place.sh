@@ -1,4 +1,4 @@
 #!/bin/sh
 set -euv
 
-curl "$CLICKBUS_API_URL/places" | jq . > ./fixtures/places.json
+curl -s -N "$CLICKBUS_API_URL/places" | jq . > ./fixtures/places.json
