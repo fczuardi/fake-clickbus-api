@@ -11,7 +11,7 @@
     "build:npm": "babel lib/*.js --out-dir dist/npm",
     "publish:npm": "npm publish dist/npm",
     "ppp": "npm version patch && git push && npm run build:npm && npm run publish:npm",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./index.js"
   },
   "babel": {
     "plugins": [
