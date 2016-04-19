@@ -1,3 +1,4 @@
 #!/bin/sh
-set -euv -o pipefail
+set -euv
+
 curl "$CLICKBUS_API_URL/places" | jq . > ./fixtures/places.json
