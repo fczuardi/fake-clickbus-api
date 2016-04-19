@@ -1,6 +1,6 @@
 {
   "name": "fake-clickbus-api",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A nock for the clickbus api",
   "main": "lib/index.js",
   "scripts": {
