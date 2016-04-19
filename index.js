@@ -1,5 +1,4 @@
-#!/bin/sh
-':' //; exec "$(command -v nodejs || command -v node)" --harmony_destructuring --harmony_sloppy_let "$0" "$@"
+#!./shebang.sh
 
 const request = require('request');
 const fakeClickBus = require('./lib');
