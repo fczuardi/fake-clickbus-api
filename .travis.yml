@@ -1,0 +1,7 @@
+language: node_js
+before_script:
+  - sudo apt-get install -y jq
+  - source .env-sample
+  - npm run mkdir:data
+  - npm run data:places
+  - npm run data:trips
