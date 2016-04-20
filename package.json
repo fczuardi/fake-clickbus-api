@@ -47,7 +47,7 @@
     "babel-plugin-transform-strict-mode": "^6.6.5",
     "eslint": "^2.8.0",
     "eslint-config-calamar": "^1.0.3",
-    "request": "^2.71.0"
+    "request": "^2.72.0"
   },
   "dependencies": {
     "nock": "^8.0.0"
