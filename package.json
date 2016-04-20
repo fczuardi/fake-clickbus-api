@@ -4,7 +4,6 @@
   "author": "Fabricio C Zuardi",
   "license": "MIT",
   "version": "0.1.24",
-  "readme": "README.md",
   "main": "lib/index.js",
   "engines": {
     "node": ">5"
