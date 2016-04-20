@@ -1,7 +1,10 @@
 {
   "name": "fake-clickbus-api",
-  "version": "0.1.23",
   "description": "A nock for the clickbus api",
+  "author": "Fabricio C Zuardi",
+  "license": "MIT",
+  "version": "0.1.23",
+  "readme": "README.md",
   "main": "lib/index.js",
   "engines": {
     "node": ">5"
@@ -35,8 +38,6 @@
     "nock",
     "mock"
   ],
-  "author": "Fabricio C Zuardi",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fczuardi/fake-clickbus-api/issues"
   },
