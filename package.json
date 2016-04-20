@@ -3,7 +3,7 @@
   "description": "A nock for the clickbus api",
   "author": "Fabricio C Zuardi",
   "license": "MIT",
-  "version": "0.1.24",
+  "version": "0.1.25",
   "main": "lib/index.js",
   "engines": {
     "node": ">5"
