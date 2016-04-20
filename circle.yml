@@ -1,3 +1,9 @@
 machine:
   node:
     version: 5.10.1
+test:
+  pre:
+    - source .env-sample
+    - npm run mkdir:data
+    - npm run data:places
+    - npm run data:trips
