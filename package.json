@@ -46,7 +46,7 @@
     "babel-plugin-transform-es2015-destructuring": "^6.6.5",
     "babel-plugin-transform-strict-mode": "^6.6.5",
     "eslint": "^2.8.0",
-    "eslint-config-calamar": "^1.0.0",
+    "eslint-config-calamar": "^1.0.3",
     "request": "^2.71.0"
   },
   "dependencies": {
