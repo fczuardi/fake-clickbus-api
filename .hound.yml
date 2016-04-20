@@ -1,0 +1,7 @@
+# https://houndci.com
+javascript:
+  enabled: false
+
+eslint:
+  enabled: true
+  config_file: config/.ci-eslintrc
