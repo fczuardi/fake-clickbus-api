@@ -11,6 +11,7 @@
     "data:places": "./tasks/update-fixtures-place.sh",
     "data:trips": "./tasks/update-fixtures-trips.sh",
     "lint": "eslint *.js lib/*.js || true",
+    "ci:eslintrc": "./tasks/codeclimate-eslintrc-gen.js > config/.ci-eslintrc",
     "prebuild:npm": "mkdir -p dir/npm && cp package.json dist/npm/.",
     "build:npm": "babel lib/*.js --out-dir dist/npm",
     "publish:npm": "npm publish dist/npm",
