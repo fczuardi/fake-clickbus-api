@@ -12,7 +12,7 @@
     "mkdir:data": "mkdir -p ./fixtures",
     "data:places": "./tasks/update-fixtures-place.sh",
     "data:trips": "./tasks/update-fixtures-trips.sh",
-    "lint": "eslint *.js lib/*.js || true",
+    "lint": "eslint --format=node_modules/eslint-formatter-pretty *.js lib/*.js || true",
     "ci:eslintrc": "./tasks/codeclimate-eslintrc-gen.js > config/.ci-eslintrc",
     "prebuild:npm": "mkdir -p dir/npm && cp package.json README.md dist/npm/.",
     "build:npm": "babel lib/*.js --out-dir dist/npm",
@@ -47,6 +47,7 @@
     "babel-plugin-transform-strict-mode": "^6.6.5",
     "eslint": "^2.8.0",
     "eslint-config-calamar": "^1.0.3",
+    "eslint-formatter-pretty": "^0.1.1",
     "request": "^2.72.0"
   },
   "dependencies": {
