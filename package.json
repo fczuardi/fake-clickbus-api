@@ -14,7 +14,7 @@
     "data:trips": "./tasks/update-fixtures-trips.sh",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty *.js lib/*.js || true",
     "ci:eslintrc": "./tasks/codeclimate-eslintrc-gen.js > config/.ci-eslintrc",
-    "prebuild:npm": "mkdir -p dir/npm && cp package.json README.md dist/npm/.",
+    "prebuild:npm": "mkdir -p dist/npm && cp package.json README.md dist/npm/. && cp -R lib/samples dist/npm/lib/samples",
     "build:npm": "babel lib/*.js --out-dir dist/npm",
     "publish:npm": "npm publish dist/npm",
     "ppp": "npm version patch && git push && npm run build:npm && npm run publish:npm",
